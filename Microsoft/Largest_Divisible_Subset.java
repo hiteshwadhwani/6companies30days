@@ -2,7 +2,7 @@ package Microsoft;
 import java.util.*;
 
 public class Largest_Divisible_Subset{
-    //https://leetcode.com/problems/bulls-and-cows/description/
+    //https://leetcode.com/problems/largest-divisible-subset/description/
     public List<Integer> largestDivisibleSubset(int[] nums) {
         Arrays.sort(nums);
         int[] dp = new int[nums.length];
